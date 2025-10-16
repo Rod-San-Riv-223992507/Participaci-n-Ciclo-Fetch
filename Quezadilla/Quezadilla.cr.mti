@@ -1,0 +1,29 @@
+C:/Arqui_Compu/Quezadilla/MI.v {1 {vlog -work Queka -stats=none {C:\Arqui_Compu\Quezadilla\MI.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MI
+
+Top level modules:
+	MI
+
+} {} {}} C:/Arqui_Compu/Quesadilla/ADD.v {1 {vlog -work Queka -stats=none C:/Arqui_Compu/Quesadilla/ADD.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ADD
+
+Top level modules:
+	ADD
+
+} {} {}} C:/Arqui_Compu/Quesadilla/Fetch.v {1 {vlog -work Queka -stats=none C:/Arqui_Compu/Quesadilla/Fetch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Fetch
+
+Top level modules:
+	Fetch
+
+} {} {}} C:/Arqui_Compu/Quesadilla/PC.v {1 {vlog -work Queka -stats=none C:/Arqui_Compu/Quesadilla/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}}

@@ -1,0 +1,51 @@
+vsim -gui Queka.Fetch_tb
+# vsim -gui Queka.Fetch_tb 
+# Start time: 21:19:09 on Oct 15,2025
+# Loading Queka.Fetch_tb
+# Loading Queka.Fetch
+# Loading Queka.PC
+# Loading Queka.ADD
+# Loading Queka.MI
+add wave -position insertpoint  \
+sim:/Fetch_tb/clk \
+sim:/Fetch_tb/SMI
+force -freeze sim:/Fetch_tb/clk 1 0, 0 {50 ns} -r 100
+run
+# ** Note: $finish    : C:/Arqui_Compu/Quesadilla/Quesa_tb.v(15)
+#    Time: 100 ns  Iteration: 0  Instance: /Fetch_tb
+# 1
+# Break in Module Fetch_tb at C:/Arqui_Compu/Quesadilla/Quesa_tb.v line 15
+quit -sim
+# End time: 21:25:08 on Oct 15,2025, Elapsed time: 0:05:59
+# Errors: 0, Warnings: 1
+# Compile of Fetch.v was successful.
+# Compile of ADD.v was successful.
+# Compile of PC.v was successful.
+# Compile of Quesa_tb.v was successful.
+# Compile of MI.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of Fetch.v was successful.
+# Compile of ADD.v was successful.
+# Compile of PC.v was successful.
+# Compile of Quesa_tb.v was successful.
+# Compile of MI.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui Queka.Fetch_tb
+# vsim -gui Queka.Fetch_tb 
+# Start time: 21:34:51 on Oct 15,2025
+# Loading Queka.Fetch_tb
+# Loading Queka.Fetch
+# Loading Queka.PC
+# Loading Queka.ADD
+# Loading Queka.MI
+add wave -position insertpoint  \
+sim:/Fetch_tb/clk \
+sim:/Fetch_tb/SMI
+force -freeze sim:/Fetch_tb/clk 1 0, 0 {50 ns} -r 100
+run
+run
+run
+run
+quit -sim
+# End time: 21:41:13 on Oct 15,2025, Elapsed time: 0:06:22
+# Errors: 0, Warnings: 3
